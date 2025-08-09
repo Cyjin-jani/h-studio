@@ -18,7 +18,7 @@ const Testimonials: FC = () => {
             >
               <div className="mb-4">
                 <h4 className="font-semibold text-gray-900">{testimonial.author}</h4>
-                <p className="text-gray-600 text-sm">수강생</p>
+                <p className="text-gray-600 text-sm">{testimonial.lesson}</p>
               </div>
               <p className="text-gray-700 text-sm italic leading-relaxed">
                 "{testimonial.content}"

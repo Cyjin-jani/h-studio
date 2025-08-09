@@ -37,6 +37,8 @@ const Programs: FC = () => {
                   src={program.image}
                   alt={program.title}
                   fill
+                  quality={100}
+                  priority
                   className="rounded-lg object-cover"
                 />
               </div>

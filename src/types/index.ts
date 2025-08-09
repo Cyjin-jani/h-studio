@@ -31,6 +31,7 @@ export interface Testimonial {
   id: number;
   content: string;
   author: string;
+  lesson: string;
 }
 
 export interface LessonPost {

@@ -88,9 +88,9 @@ export const TEACHER: Teacher = {
   role: "보컬 트레이너 & 싱어송라이터",
   image: "/images/avatar.jpeg",
   experience: [
-    "홍길동 대학교 실용음악과 졸업",
-    "대충 대표 이력 (2018-2021)",
-    "개인 레슨 경력 8년, 수강생 2000명+",
+    "보컬 레슨 8년 차 · 누적 수강생 150명 이상",
+    "멜론·지니 등 음원 플랫폼에 곡 발매 중 (현역 싱어송라이터)",
+    "20여 개 교육기관 출강 중",
   ],
   albums: [
     {
@@ -125,14 +125,42 @@ export const TEACHER: Teacher = {
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    content:
-      "처음엔 긴장됐지만, 선생님들이 정말 친절하고 디테일하게 도와주셔서 목소리가 많이 바뀌었어요.",
-    author: "홍길동",
+    content: "선생님이 친절하시고 재밌으십니다. 노래 처음 배우시는 분들에게 강추합니다!",
+    author: "백OO",
+    lesson: "원데이 보컬 레슨",
   },
   {
     id: 2,
-    content: "보컬이 이렇게 재밌는 건 처음이에요. 특히 내 음색을 찾은 게 제일 감동적이었어요.",
-    author: "김보라",
+    content: "노래의 ‘ㄴ’도 모르는 문외한인 제게 발성부터 기본기까지 차근차근 잘 알려주셨어요!",
+    author: "양OO",
+    lesson: "1:1 개인 보컬 레슨",
+  },
+  {
+    id: 3,
+    content:
+      "보컬레슨 체험용으로도 좋고 데이트 코스로도 너무 좋았어요!! 친구랑 와도 재밌을 것 같아요 🥰👍",
+    author: "박OO",
+    lesson: "보컬 퍼스널 컬러 진단",
+  },
+  {
+    id: 4,
+    content:
+      "선생님이 정말 친절하게 잘 가르쳐주시고 하나하나 잘 집어서 설명해주셔서 정말 좋았습니다.",
+    author: "김OO",
+    lesson: "1:1 개인 보컬 레슨",
+  },
+  {
+    id: 5,
+    content: "선생님이 친절하시고, 설명을 잘해주세요. 아이가 매주 즐겁게 다녔습니다. 감사합니다.",
+    author: "이OO",
+    lesson: "1:1 개인 보컬 레슨",
+  },
+  {
+    id: 6,
+    content:
+      "노래에 조금이라도 관심있으시면 레슨 강추합니다. 알아듣기 쉽고 따라하기 쉽게 원리와 핵심을 잘 짚어 가르쳐주십니다.",
+    author: "홍OO",
+    lesson: "1:1 개인 보컬 레슨",
   },
 ];
 
@@ -142,37 +170,38 @@ export const LESSON_POSTS = [
     id: 1,
     title: "무료 상담 - 편하게 시작하는 첫 걸음",
     description: "전문 보컬 코치와 함께 당신만의 소리를 발견해보세요",
-    image: "/images/program1.jpeg",
+    image: "/images/programs/programOne.webp",
   },
   {
     id: 2,
     title: "1:1 개인 보컬 레슨 - 나만의 목소리를 찾는 시간",
     description: "일대일 맞춤형 개인 레슨으로 체계적인 보컬 트레이닝을 경험하세요",
-    image: "/images/program1.jpeg",
+    image: "/images/programs/programTwo.webp",
   },
   {
     id: 3,
     title: "보컬 MBTI 퍼스널 컬러 진단",
     description: "나만의 음역대와 음색을 발견하는 특별한 진단 프로그램",
-    image: "/images/program1.jpeg",
+    image: "/images/programs/programThree.jpeg",
   },
   {
     id: 4,
     title: "원데이 보컬 레슨 - 하루 만에 발견하는 나만의 목소리",
     description: "단 하루 만에 체험할 수 있는 집중 보컬 레슨",
-    image: "/images/program1.jpeg",
+    image: "/images/programs/programFour2.webp",
   },
   {
     id: 5,
     title: "2인 보컬 레슨 - 함께하는 즐거운 음악 여행",
     description: "친구, 연인과 함께하는 특별한 듀엣 레슨 프로그램",
-    image: "/images/program1.jpeg",
+    image: "/images/programs/programFive.webp",
   },
   {
     id: 6,
     title: "원데이 발성 교정 - 건강한 목소리 만들기",
     description: "올바른 발성법으로 더 안정적이고 건강한 목소리를 만드는 수업",
-    image: "/images/program1.jpeg",
+
+    image: "/images/programs/programSix.jpeg",
   },
 ];
 

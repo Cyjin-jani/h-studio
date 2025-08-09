@@ -24,7 +24,7 @@ const Hero: FC = () => {
       className="relative flex min-h-screen items-center justify-center overflow-hidden"
     >
       <Image
-        src="/images/hero.webp"
+        src="/images/heroOne.webp"
         alt="보컬 레슨 스튜디오"
         fill
         className="object-cover"

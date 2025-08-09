@@ -10,22 +10,22 @@ const InfoAndReservation: FC = () => {
     {
       id: 1,
       name: "본점(왕십리점)",
-      address: "서울시 성동구 왕십리로 222",
-      subway: "왕십리역 1번 출구 도보 3분",
+      address: "서울 성동구 왕십리로 21길 9 201호",
+      subway: "왕십리역 10번 출구 도보 3분",
       link: EXTERNAL_LINKS.hanyangdae,
     },
     {
       id: 2,
       name: "한양대점",
-      address: "서울시 성동구 한양대학로 333",
-      subway: "한양대역 2번 출구 도보 5분",
+      address: "서울시 성동구 마조로3가길 19",
+      subway: "왕십리역 6번 출구 & 한양대 정문 도보 5분",
       link: EXTERNAL_LINKS.hanyangdae,
     },
     {
       id: 3,
       name: "수유점",
-      address: "서울시 강북구 수유로 444",
-      subway: "수유역 4번 출구 도보 2분",
+      address: "서울 강북구 수유동 9-29",
+      subway: "수유역 5번 출구 도보 5분",
       link: EXTERNAL_LINKS.sooyou,
     },
   ];
@@ -62,7 +62,7 @@ const InfoAndReservation: FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-xl">📱</span>
-                <span className="text-gray-700 font-medium">010-1234-5678</span>
+                <span className="text-gray-700 font-medium">010-2365-2061</span>
               </div>
             </div>
           </div>
