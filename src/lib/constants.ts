@@ -169,39 +169,39 @@ export const LESSON_POSTS = [
   {
     id: 1,
     title: "무료 상담 - 편하게 시작하는 첫 걸음",
-    description: "전문 보컬 코치와 함께 당신만의 소리를 발견해보세요",
-    image: "/images/programs/programOne.webp",
+    description: "전문 보컬 코치와 함께 부담없는 무료 상담",
+    image: "/images/programs/program1.jpeg",
   },
   {
     id: 2,
     title: "1:1 개인 보컬 레슨 - 나만의 목소리를 찾는 시간",
-    description: "일대일 맞춤형 개인 레슨으로 체계적인 보컬 트레이닝을 경험하세요",
-    image: "/images/programs/programTwo.webp",
+    description: "일대일 맞춤형 개인 레슨으로 체계적인 보컬 트레이닝",
+    image: "/images/programs/program2.jpeg",
   },
   {
     id: 3,
     title: "보컬 MBTI 퍼스널 컬러 진단",
     description: "나만의 음역대와 음색을 발견하는 특별한 진단 프로그램",
-    image: "/images/programs/programThree.jpeg",
+    image: "/images/programs/program3.jpeg",
   },
   {
     id: 4,
     title: "원데이 보컬 레슨 - 하루 만에 발견하는 나만의 목소리",
     description: "단 하루 만에 체험할 수 있는 집중 보컬 레슨",
-    image: "/images/programs/programFour2.webp",
+    image: "/images/programs/program4.jpeg",
   },
   {
     id: 5,
     title: "2인 보컬 레슨 - 함께하는 즐거운 음악 여행",
     description: "친구, 연인과 함께하는 특별한 듀엣 레슨 프로그램",
-    image: "/images/programs/programFive.webp",
+    image: "/images/programs/program5.jpeg",
   },
   {
     id: 6,
-    title: "원데이 발성 교정 - 건강한 목소리 만들기",
+    title: "원데이 발성 교정 - 깊어지고 편해지는 목소리",
     description: "올바른 발성법으로 더 안정적이고 건강한 목소리를 만드는 수업",
 
-    image: "/images/programs/programSix.jpeg",
+    image: "/images/programs/program6.jpeg",
   },
 ];
 
