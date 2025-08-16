@@ -7,7 +7,7 @@ import { LESSON_POSTS, RESERVATION_LINKS } from "@/lib/constants";
 
 const Programs: FC = () => {
   const handleOpenBooking = () => {
-    window.open(RESERVATION_LINKS.hanyangdae, "_blank", "noopener,noreferrer");
+    window.open(RESERVATION_LINKS.main, "_blank", "noopener,noreferrer");
   };
   return (
     <section id="programs" className="bg-surface-primary py-8 md:py-16 px-4 md:px-0">
@@ -19,7 +19,7 @@ const Programs: FC = () => {
           {LESSON_POSTS.map((program) => (
             <a
               key={program.id}
-              href={RESERVATION_LINKS.hanyangdae}
+              href={RESERVATION_LINKS.main}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white cursor-pointer flex h-[160px] items-center justify-between md:w-[calc(50%-1rem)] p-5 rounded-xl shadow-md transition-all w-full hover:shadow-lg"

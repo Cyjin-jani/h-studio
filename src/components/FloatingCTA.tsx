@@ -6,7 +6,7 @@ import { RESERVATION_LINKS } from "@/lib/constants";
 
 const FloatingCTA: FC = () => {
   const handleClick = () => {
-    window.open(RESERVATION_LINKS.hanyangdae, "_blank");
+    window.open(RESERVATION_LINKS.main, "_blank");
   };
 
   return (

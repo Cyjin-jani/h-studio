@@ -42,7 +42,7 @@ const Navbar: FC = () => {
 
           {/* 데스크톱 버튼 영역 (오른쪽) */}
           <div className="hidden md:flex">
-            <a href={RESERVATION_LINKS.hanyangdae} target="_blank" rel="noopener noreferrer">
+            <a href={RESERVATION_LINKS.main} target="_blank" rel="noopener noreferrer">
               <Button
                 variant="default"
                 size="lg"

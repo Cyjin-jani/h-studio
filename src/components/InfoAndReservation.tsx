@@ -12,7 +12,7 @@ const InfoAndReservation: FC = () => {
       name: "본점(왕십리점)",
       address: "서울 성동구 왕십리로 21길 9 201호",
       subway: "왕십리역 10번 출구 도보 3분",
-      link: EXTERNAL_LINKS.hanyangdae,
+      link: EXTERNAL_LINKS.main,
     },
     {
       id: 2,

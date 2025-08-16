@@ -206,11 +206,13 @@ export const LESSON_POSTS = [
 ];
 
 export const EXTERNAL_LINKS = {
-  hanyangdae: "https://naver.me/xIeMrVKQ",
+  main: "https://naver.me/xIeMrVKQ",
+  hanyangdae: "https://naver.me/xquv92tH",
   sooyou: "https://naver.me/Fnmdk4dp",
 };
 
 export const RESERVATION_LINKS = {
-  hanyangdae: "https://naver.me/5Gp091p2",
+  main: "https://naver.me/5Gp091p2",
+  hanyangdae: "https://naver.me/Fhfd9whC",
   sooyou: "https://naver.me/5DDPkQ8p",
 };
